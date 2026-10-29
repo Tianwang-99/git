@@ -1,0 +1,44 @@
+# Local environment settings (keep shareable examples)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Installed dependencies and virtual environments
+node_modules/
+.venv/
+venv/
+
+# Generated output and tool caches
+dist/
+build/
+coverage/
+.cache/
+.next/
+.nuxt/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.tsbuildinfo
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# Local IDE state
+.vs/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/shelf/
+.vscode/*.local.*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+[Dd]esktop.ini
